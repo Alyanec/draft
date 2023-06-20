@@ -58,6 +58,15 @@ function_a, _, function_c, = some_function(a)
 print(function_a)
 print(function_c)
 
+# Завдання_1
+list_a = [1, 2, 3, 4]
+list_b = [5, 6, 7, 8]
+list_c = list(zip(list_a, list_b))
+# Завдання_2
+my_list = ["bar", "baz", "qux", "etc"]
+my_list.insert(0, "foo")
+my_tuple = tuple(my_list)
+print(my_tuple)
 
 
 
